@@ -1,0 +1,309 @@
+iyuuToken = "IYUU20275Te79ea6785cac323bcf95a257abb69bd8047009c5"
+brushEnableStats = true
+siteProxy = "http://192.168.10.2:1080"
+siteJa3 = "none"
+
+[[clients]]
+name = "local"
+type = "qbittorrent"
+url = "http://localhost:9004/"
+#username = "admin"
+#password = "adminadmin"
+
+[[clients]]
+name = "ovh"
+type = "qbittorrent"
+url = "http://ovh.s.sagan.me:9004/"
+username = "admin"
+password = "g7jwV5MCnEW7HG6h8fnXuaXKLzCtSj5g"
+brushMaxDownloadingTorrents = 2
+brushMinDiskSpace = "0GB"
+#brushTorrentSizeLimit = "10GB"
+
+[[clients]]
+name = "pcserver"
+type = "qbittorrent"
+url = "http://192.168.1.20:9003/"
+username = "admin"
+password = "X6tZwycoQbtrfjBmiW75QwRm4ixNBAgf"
+
+[[clients]]
+name = "pcserver2"
+type = "qbittorrent"
+url = "http://192.168.1.60:6002/"
+username = "admin"
+password = "58U9QnZ4yQrs54UyBV2bZ6EDNBdMtAqc"
+brushMinDiskSpace = "20GB"
+brushMaxDownloadingTorrents = 4
+
+[[clients]]
+name = "panda"
+disabled = true
+type = "qbittorrent"
+url = "http://49.77.0.219:9004/"
+username = "admin"
+password = "NWTN5t2uuHdAwkxL3XmZr4D4ceuzEdoE"
+brushMaxDownloadingTorrents = 8
+brushMinDiskSpace = "5GB"
+
+[[clients]]
+name = "ishome"
+type = "qbittorrent"
+url = "http://218.2.211.122:1197/"
+username = "admin"
+password = "8nDz54UquaAjCTbczacnHTFxrEhhxP57"
+brushMaxDownloadingTorrents = 8
+brushMinDiskSpace = "20GB"
+
+[[clients]]
+name = "istest"
+type = "qbittorrent"
+url = "http://218.2.211.122:1195/"
+username = "admin"
+password = "TLHczgCtRY6cYCCRF2HnhLsgpgUAPdVo"
+
+[[clients]]
+name = "interserver"
+type = "qbittorrent"
+url = "http://interserver.s.sagan.me:9003/"
+username = "admin"
+password = "pJfT2YjeR9SSx3QfULffWDkJrDYy5aBn"
+brushMaxDownloadingTorrents = 5
+brushMinDiskSpace = "5GB"
+
+[[sites]]
+type = "0ff"
+cookie = "cf_clearance=HXQ._MgBUOT9wBaBc9Ewuk1GV4qgryEEs8QdhJ1Lcis-1680999637-0-150; c_secure_uid=NTk5NA%3D%3D; c_secure_pass=755550394e0b85395f109fa314d83221; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "1ptba"
+cookie = "c_secure_uid=MTAyMjEz; c_secure_pass=7822609fd1483f624e44d3e557a81076; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "2xfree"
+cookie = "c_secure_ssl=eWVhaA%3D%3D; _ga=GA1.1.1458226229.1678750731; _ga_34B604LFFQ=GS1.1.1678750730.1.1.1678751064.60.0.0; c_secure_uid=MzE4Nw%3D%3D; c_secure_pass=e6d33ea33369473142fc2c12d1100ef3; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "3wmg"
+cookie = "c_secure_uid=MTQyOA%3D%3D; c_secure_pass=4cf064b36ff1a57cd2cab9a83215c7c9; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "52pt"
+cookie = "c_secure_uid=MTY5NzY%3D; c_secure_pass=3a283d46c89159147284359d766ec669; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "audiences"
+cookie = "c_secure_uid=MjEyMzM%3D; c_secure_pass=5c77e50634e6184c676fe23dba0dd79d; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "azusa"
+cookie = "c_secure_uid=NDIwMw%3D%3D; c_secure_pass=d1c8e92726329a62065d2b0cb5433321; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "beitai"
+cookie = "c_secure_uid=MjcyNTg%3D; c_secure_pass=d0da7d4a3d3b90cc9ec1adbeee323dac; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga=GA1.1.1197940713.1678201397; _ga_34B604LFFQ=GS1.1.1680523656.23.1.1680525079.60.0.0"
+
+[[sites]]
+type = "btschool"
+cookie = "c_secure_uid=MTE3ODU4; c_secure_pass=76a2fa528bb0823b9629b8d277e8cd9d; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga_34B604LFFQ=deleted; _ga=GA1.1.1135451125.1678411097; _ga_34B604LFFQ=GS1.1.1680764269.49.0.1680764351.60.0.0; cf_clearance=Gebdu76AZHPfs_w5s42sP.xSQx6wtUNrNKo4Ag9LVVU-1684301024-0-250"
+ja3 = "771,4865-4866-4867-49196-49195-49188-49187-49162-49161-52393-49200-49199-49192-49191-49172-49171-52392-157-156-61-60-53-47-49160-49170-10,65281-0-23-13-5-18-16-11-51-45-43-10-21,29-23-24-25,0"
+
+[[sites]]
+type = "carpt"
+cookie = "c_secure_uid=MTIwNDk%3D; c_secure_pass=9873cb79e0bea19431e148a3cfd4cae9; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; cf_clearance=CHXfNdwAumTv04SySH6s4UqDu1LLM7cSG1qo.looETQ-1682153536-0-250"
+
+[[sites]]
+type = "cyanbug"
+cookie = "c_secure_uid=MTEwODY%3D; c_secure_pass=58cde432fc192c5d6ee1583018edaf44; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "discfan"
+cookie = "c_secure_uid=NDY3OTg%3D; c_secure_pass=fa9593f377ac343f3e8e3eaa3db8e585; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "gainbound"
+cookie = "c_secure_uid=OTIyNA%3D%3D; c_secure_pass=46df59a6eb19affa9b98ab41cf7df7e4; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "gamegamept"
+cookie = "c_secure_uid=MTAyNzM%3D; c_secure_pass=5b0de19fffbb5c500c1a0f9f54745921; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "gpw"
+cookie = "PHPSESSID=r4tuvqpt91sfdumpf0ml5008a8; lang=chs; session=oH11XRQzxQOtZcdYTXnID2wU91Mwvo8sti0Dh8INTQDZ9Zo7StYiwb1US5ePKmOg8g1DlHoPbmD86WbHxfsQqFyWq6JihfeYPq9Ym6lY0EEPp74f79AhZEJq8HIkYTxaMetpXtV5QtE%2FMZSCbCQ4TQ%3D%3D"
+
+[[sites]]
+type = "gtk"
+cookie = "c_secure_uid=MTUxNA%3D%3D; c_secure_pass=629e7f4adf27c4671554c9a0b03bfdd4; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+#[[sites]]
+#type = "haidan"
+#cookie = "c_secure_uid=NTAzNjg%3D; c_secure_pass=d5711ea540b749fd24327d73aae435c1; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga=GA1.1.968109937.1680336898; _ga_34B604LFFQ=GS1.1.1680792220.4.1.1680792262.18.0.0"
+
+[[sites]]
+type = "hdarea"
+cookie = "_ga=GA1.2.1132530405.1682145470; __gads=ID=50ca1a06f0f739f3-224b117d60df00e5:T=1682145470:RT=1682145470:S=ALNI_Ma1QhdipA0g-k8NyEacK8U9vrm6eQ; _gid=GA1.2.1349828413.1682841292; __gpi=UID=00000bfc6f01f39a:T=1682145470:RT=1682841292:S=ALNI_MYVLCIQfD1-GHM9JzBC8kRJtXnwfg; __cf_bm=ejZOvK0U.AS_7nkI38_fBHYwAE0bynmap.gaJGmSPkA-1682841293-0-Ac6vqDxkO8gj1Gu/m6cmx+Rbv8QMtXTlJkUNpfkgex8hlxdGgtnzWSNE1+lkciLu3wuCWk4wj7nE7r0tg0Knzk3Yz/3T2dynfpXthLwPn5zv; c_secure_uid=MTE4MjI0; c_secure_pass=cd123cde19b9cf0f87505d578b67e723; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdatmos"
+cookie = "c_secure_uid=NTA0OTA%3D; c_secure_pass=9cfa4774ac14cdde33430789b8ef874f; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hddolby"
+cookie = "cf_clearance=N.YQvjYsSDLEGrfdPstF__mg0NuieSo8p_eIaCU9ZBI-1678191874-0-150; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_uid=MzU4Njk%3D; c_secure_pass=29ef0744adf2c78deb32fe01a1d5f3fb; c_secure_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga_34B604LFFQ=deleted; _ga=GA1.1.822673544.1678191879; _ga_34B604LFFQ=GS1.1.1680530707.62.1.1680530727.40.0.0"
+
+[[sites]]
+type = "hdfans"
+cookie = "c_secure_ssl=eWVhaA%3D%3D; c_secure_uid=MzcyMDQ%3D; c_secure_pass=9de31338b19702eaf4335d956a79f42e; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; __gads=ID=cf79c7612365e2f4-226075b446da0003:T=1677671702:RT=1677671702:S=ALNI_MaPMrj7b5O7Ko4-EJRQyXRYeQ5QtQ; cf_clearance=edHy0QomlJBSoQJgNTHKKvQPqlVWrqZwG5MPpmCgmuA-1677923113-0-250; _ga=GA1.1.342782057.1677671672; _ga_34B604LFFQ=GS1.1.1680531674.85.1.1680532283.60.0.0; __gpi=UID=000009c5f1f1ed16:T=1677671702:RT=1682423082:S=ALNI_MZvg7ZNMoGZVYXfEQ39kyPC_Kbtgw"
+
+[[sites]]
+type = "hdhome"
+cookie = "cf_clearance=lOr7NrgPOiGBCerp0L5HmOZe_05U8D4PdzAOJV49TMs-1682335022-0-150; c_secure_uid=MTI1Mjc0; c_secure_pass=e9078aa8caf5125cf997939a2e25c140; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; c_secure_uid=MTI1Mjc0; c_secure_pass=e9078aa8caf5125cf997939a2e25c140; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdcity"
+cookie = "c_lang_folder=chs; _ga=GA1.1.843017196.1678638312; _ga_34B604LFFQ=GS1.1.1678638312.1.1.1678639904.60.0.0; c_secure_uid=MTAxMDQ3OTE%3D; c_secure_pass=9bf1c8a1c9646b1fdd892a26160cb922; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdmayi"
+cookie = "c_secure_uid=MTgwODE%3D; c_secure_pass=24a74aa12567a90987499e21447e08bf; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+
+[[sites]]
+type = "hdpost"
+cookie = "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlpzNlVCajVKcUtPTHRDVHRPWURjOEE9PSIsInZhbHVlIjoib3VQbU1LRHRobnNmTmMybWxPUTRHcnpvMmxqUFVxZnk3ZVg0bkdyT1ZsUGRUeUExT2ZBZFRYWDZPdS9pVisrVlZPblhrTzFpQXI5VTAxU1NsQzhLTmZqZEx3R0dobXNyUWlEaE9DSUtkQXlJM1h3SEdMUnE0dUxpYzhjYUxQN2E3eGkzQmxXT2EvbDkweGlOdGtzNkdsd0cxbHlJaWtrN3BNY3hrMEhKWFkwdFFxWDEySi9SeXlQM2hvOVQzNlZGekVLbFUxcVNSUFV0M1lDL0JDbWdHa0h0Uy9FaU02S3FjVVh1MGtlZVdnST0iLCJtYWMiOiI0Yzk5ZGIxMjUyNzgwM2ViY2Y1ZjcwNTBmOWMzYTVjMGI4NDU3NmQzYzhhNzUyYTIyNzJkMjFlZjQ0NjdlNWU4IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6ImhmcnM4Qi92dkFHVFJGeldxaE1Lb1E9PSIsInZhbHVlIjoiUWpqUlpXRWE0RGJiNVNtVWczdXhFTTRMU0xYN2FId012QTlZNUlYYnIyUlcrT0ZONUswZ3M0SDE4S0pNSTJTbzZCcDVwTzVUOHRqbURaYXJrWDdqcUFKSlpGK1A5cFQ2anYvTllweGkwSzltQTAxTnZid0x1UW9JV3FXZWt6cVEiLCJtYWMiOiI0OTE2NmY0ZTIyN2ZkN2Q5ZGQ2YzE2OWVkM2FjMmU0MDM2NDY5OTc1NGQ1NTY1MGExOWNlNmE2ZDk1NzcxYzQ5IiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6ImtLazVkaEdVVkk0US9KWDQwd1JCQ1E9PSIsInZhbHVlIjoibHBtYnVVeitCQjZpdTBlZzNLWDQ0ZkNWL0NKZHNKZ2JybFZmRTFIK1I0c3ZjNmdrc1FaSC9aMDQvaDBGVHQ3Z1ZGdHNWcklwTjY3am44RyswSENCV2RsNkxwTjZ3amhSbllxcnp5d0t4cHZ2VW1xRVN5ci8rMkx4SGZjWi9pbHoiLCJtYWMiOiI1NGUzZjcwMzMzOTU0ZTcwZTMwMGJmMTRjNDM4N2ZmOTk0Mjg1MDc0YTUwZWNlNmU3MjhkZDZjMmY0NGI1ZmJiIiwidGFnIjoiIn0%3D"
+
+
+[[sites]]
+type = "hdtime"
+cookie = "c_secure_ssl=eWVhaA%3D%3D; c_secure_uid=OTAxNzg%3D; c_secure_pass=142851ff43a66b3742d093f1f7fd8401; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdupt"
+cookie = "c_secure_uid=Mzk2ODE%3D; c_secure_pass=85505aa647e5ccc5b380246020952cae; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdvideo"
+cookie = "c_secure_uid=MTYwODY%3D; c_secure_pass=e7d80c86547f8ce93b79d65e496b13c1; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hdzone"
+cookie = "c_secure_uid=MTY5MjE%3D; c_secure_pass=0eba5e3be8d9850453d056d091c9f622; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "hhanclub"
+cookie = "c_secure_uid=MTUwNjY%3D; c_secure_pass=1445587098055a08995051a85b65149b; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga=GA1.2.236101133.1679732143; _ga_34B604LFFQ=GS1.1.1680004862.21.1.1680005678.60.0.0; cf_clearance=jFmowOiSFCmT_ws8rlg7mtkbtY54HzxyxFqhugSvTwo-1683854186-0-250"
+
+# chrome latest
+ja3 = "772,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,65281-5-51-0-17513-13-27-16-18-10-23-45-35-43-11-41,29-23-24,0"
+
+# safari
+#ja3 = "771,4865-4866-4867-49196-49195-49188-49187-49162-49161-52393-49200-49199-49192-49191-49172-49171-52392-157-156-61-60-53-47-49160-49170-10,65281-0-23-13-5-18-16-11-51-45-43-10-21,29-23-24-25,0"
+
+[[sites]]
+type = "icc2022"
+cookie = "c_secure_uid=MTIzMTU%3D; c_secure_pass=4399bdc4ec20e8ccdc14dfb5c4c1683d; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "joyhd"
+cookie = "c_secure_uid=MjM2NzQ%3D; c_secure_pass=d142f2af9915671a65f8f99f4c7e26c0; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; PHPSESSID=71lucldan4ggk27gf7e1s11tl2; t-se=1"
+
+[[sites]]
+type = "jptv"
+cookie = "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6ImpKSDVHRDRyWkl2bCtadk9TK29VT2c9PSIsInZhbHVlIjoiYUJKTG84aThkUlhFT0NlbDhyWnNRUzkxdXczSEMyT24xcHB0M0wxMkFYS3pyeE5DMFdadnNpVllycmpycWlLcEsyemx2TnQ3dzF0eC9KQnRMR0pUK2FQRzRGVlNDOUs3Kzc2UDE3ZmJQVndhb28rWlVZcHhtazJxek1lTlIvRnh6bEVNNUM3dDhieGVsaDJqZ2U4SDZBbUE3aEdaZFdqMm5VdHYydEZtdndTejkwSjNwZjVLRkgyYmFCM1hDb1lWV2xxcVFYdTZETWhzTkdjRVFJWEhMbURDL0hwbnhMYllySDFBRlVRbngwdz0iLCJtYWMiOiI0ZGE3NDQ1ZjFkOGQ2NDQ0ZjQ4ODgzYjRjOGFhMzMwNjRlYWU4MWJhNmU3ZTUwNjc1Y2ZjOGY1OWZiNTM4OGRiIiwidGFnIjoiIn0%3D; io=8ol265e3Q6aP8A8fABaH; XSRF-TOKEN=eyJpdiI6IitqU01kUVV2V3NwOUNPcjdCcGRXdmc9PSIsInZhbHVlIjoiTlZpU3kyOVFmbFBFT1FhbnhNUXRubERueG1WWHNXOVVETHFWWENnNjJBZEJVNjllV0FwVzlodURhYWNJQkgyRUlTdkMyT01oZDFHdWxsRU9PVG40UWt6V3ZnY2ZScTdhb3ZycEsyWTE0QmwwKzFwcVFNS1RCNXBRcVFQb0xRQWoiLCJtYWMiOiI2NjNhZmRhNGQ0MTdmY2IyOGUyYzc1MTdhZmI2NDE3Mzg2NDQ4MTVmODU5MjlhYzVjMDhiMmQxZjM5M2JhMDRhIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IkxSMEVFLzFCU0Q3NkNZY21RM3paaHc9PSIsInZhbHVlIjoib1pwNXpvZ3hGODdQOTBnOE5mbmFpdUh1WXd2REw0amxzNEIyTXkyWTA5RHNlTzhkNHFpQm5wRElrbWs5ZEtJQmhYczd1M0pMWDhuMTJXWUpSUVA4Y2J1UnRJRlVSY2VxTU1NcS96OVBINlk0bkJjZ1hjakY1RlFDZW9JbWRKdVciLCJtYWMiOiIwZjgyN2JlNzdkZTFiODUwOWM3MzFiMDE5NTk2NjAyNTE0Zjk4YmE4OWVmMzZhOTlkNWJkMDJhMzUwMDhhMzgyIiwidGFnIjoiIn0%3D"
+
+
+[[sites]]
+type = "kamept"
+cookie = "c_secure_login=bm9wZQ%3D%3D; c_secure_uid=MTg3NDY%3D; c_secure_pass=f9c2528442ae99996188e2adffc0f981; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D"
+
+[[sites]]
+type = "leaves"
+cookie = "_pk_id.1.0683=66c65bd5c41d892e.1680622304.; c_secure_uid=MzI2Ng%3D%3D; c_secure_pass=c19af3353bbd5ab8fadeb005c2443283; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _pk_ses.1.0683=1"
+
+
+[[sites]]
+type = "lemonhd"
+cookie = "c_secure_uid=NDc1NTk%3D; c_secure_pass=747200beb5c30cbc7099d8daf36a3c04; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "monika"
+cookie = "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlBLSE1uUjRVMXFFOUhzNjVQVHdvcFE9PSIsInZhbHVlIjoid2o2ZVFMaHIwZXhTOWNsVXJCMllHT0YrYnQ3VGJobGNrWjVEMHZJM09PVVhqWmcybVFZSnJUUlgyTFlXRC9sc01PTmNzUzlpdE1jUkZWdTc1c0huTFhGM0phUWlxa0JkWm94a2NuR1V2OEtzbm1NcGl0YzAxV1RsSkVRMWk4SnRlc2ZwMGRoYWtvZVBUNDhHSUlHSktHYS9PSGs3WW9ZM2dwSVBMb0JxTGZxYWlSRzloNjJENkZnU2JlN0tCeFdoZ2FJUWZXNWRpcmpRc3hNL3dPUUdJdnE2eUR6S1E0WTBVZ3hRNFhxeWpOVT0iLCJtYWMiOiI2MzU0M2ExZDNiMzNiY2I0ZGYzZjA3YjViOWI3ZTU2N2FjYjQ0M2YyZGQ4MWU3Yjk2NjM2YTk4NDMwM2EwMmIwIiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IkNnSE12MTQ0eHJlZVRTN2NZdFJnVkE9PSIsInZhbHVlIjoiQm1DY2ovMDhwSlBFa2t0WmFMQit2cW5KZXJMS2ZYd2ZtazYzSXByM1VtdDFJY0FMdzNHNnFvdlBsUUlaVXhDN2h2bWk4OUhvTnVZS0hkRURwd0poTDBkdEhiVld0VlQzU1g5czc2VHh5TnZPK0l6aWFXbzcrMElLazhGTWhNMVIiLCJtYWMiOiIyY2MzNTQzMTRhYjViMmRhYTE4MmE3NjBmOTgxNmUwZGI0NTYzNGExYjA4MzY3NDU3NjdhMzIzMmFjYzliZjVmIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6ImZuUUh2NHF5Z3dVd1g2TEVFRi9RY1E9PSIsInZhbHVlIjoiTk9mWmtFOEFTcFZ4NC95czJYOC9XL3dYQ3NzM284cTFSNks0VHExNS9YdXZobTRFRExYWVhnbi9nOVJZN0kyL1BLYzc5UldLVjMvbncwbnpETS9mNVJOSXdhdEkxY09PV2pCd2NsYjhvK2JjYmU3RmdhRGNZUkJKSGd5V3FPMGwiLCJtYWMiOiI2MTI0MjdjZTlmZGE1ZTNiMWIyMDYzMjZiYjMxZTMyZDdmZWEwYjNkZjAwNzAwMzVjMTkyYjYxNjVjNzUyMTM2IiwidGFnIjoiIn0%3D"
+
+
+[[sites]]
+type = "mteam"
+cookie = "_ga_34B604LFFQ=GS1.1.1680774091.70.1.1680774206.49.0.0; _ga=GA1.1.1333099760.1678328925; cf_clearance=_AVhnJz2TxABVwaxnvfIBliZv8c34yE3KqZ8yBuPZhA-1683538297-0-150; tp=MzAxYzk2ZmEzMzdhMTUzYTM5N2Q2ZWU0MThiYTlhNmM0MTZhZDBkYQ%3D%3D"
+
+[[sites]]
+type = "nicept"
+cookie = "c_secure_uid=MTE3OTcxOQ%3D%3D; c_secure_pass=5ffead96ed908ec290093ace55088874; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "oshen"
+cookie = "c_secure_uid=OTk4Mw%3D%3D; c_secure_pass=5b79f93c86a4383d8a4278ebe8528e4e; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "piggo"
+cookie = "c_secure_uid=MTk2Njg%3D; c_secure_pass=5a7cccd27381d1f424d777ff7daa26d0; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga=GA1.1.1978603278.1678187776; _ga_34B604LFFQ=GS1.1.1680867175.101.0.1680867175.60.0.0; cf_clearance=xsT9tRdlK6RR49FVk5xHz96DEHX9_4M.iN6VfbZ279o-1682552466-0-250"
+
+[[sites]]
+type = "ptchina"
+cookie = "c_secure_uid=MTQ3MDE%3D; c_secure_pass=2c4b824aa4701d6e84104deebac260ef; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "ptsbao"
+cookie = "c_secure_uid=MTgxMzg%3D; c_secure_pass=a27ba40667a82e324b76c1cc69960062; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; PHPSESSID=segu3duapl1idbep3v8ha3d5o2"
+
+[[sites]]
+type = "pthome"
+cookie = "cf_clearance=2.d7qKJsr5mLFeXB8dhJSlnpYWC3VXfpyn8hnjp0MAM-1680500075-0-150; c_secure_uid=MTM0NDc5; c_secure_pass=f03f21a9dba847b801d8438a29aa33c9; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; Hm_lvt_41bc5487f653d238d282d7de5990fd73=1680500087,1680577326,1680759040; _gid=GA1.2.472181634.1680759043; Hm_lpvt_41bc5487f653d238d282d7de5990fd73=1680766773; _ga_34B604LFFQ=GS1.1.1680766774.8.0.1680766774.60.0.0; _ga=GA1.1.2033554792.1680500089"
+
+[[sites]]
+type = "pttime"
+cookie = "c_secure_uid=NzA5MjA%3D; c_secure_pass=0f84fa38ab490504b3d382fea42580ad; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "sharkpt"
+cookie = "c_secure_uid=MTQ3NTQ%3D; c_secure_pass=6758253e43b63d94a37489c6ced00fa2; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "soulvoice"
+cookie = "c_secure_uid=MTI3MzMw; c_secure_pass=39fcad1d050de7909d8b733647a6125c; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "tlfbits"
+cookie = "c_secure_uid=NDA5NjI%3D; c_secure_pass=7c10d417d6194bc773a83e4ef2c8c269; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+
+[[sites]]
+type = "u2"
+cookie = "nexusphp_u2=1187d1ff3d107f898ec9d15924080c769651937848e8923c85de008ad9fe408fe48a282168c921484d53861a5fb89705; _ga_34B604LFFQ=GS1.1.1680769502.25.0.1680769502.60.0.0; _ga=GA1.1.272764301.1679446478"
+
+[[sites]]
+type = "ubits"
+cookie = "c_secure_uid=MTA2MDA%3D; c_secure_pass=2e6ed421c3e4968518de33cfdb6552f0; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "ultrahd"
+cookie = "c_secure_uid=ODI4; c_secure_pass=420e17bdb2dfdb1ec13d59c7b9bd2b05; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "wintersakura"
+cookie = "c_secure_uid=MTUyNjU%3D; c_secure_pass=271c69cf5b05002f14fda71f9648cd4d; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _gid=GA1.2.801244552.1680701467; _ga_34B604LFFQ=GS1.1.1680707840.2.1.1680707842.58.0.0; _ga=GA1.1.1090108323.1680701467"
+
+[[sites]]
+type = "xinglin"
+cookie = "c_secure_uid=MTEzNjQ%3D; c_secure_pass=21e8e26142030cbc97f0e9840e281d44; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[sites]]
+type = "zhuque"
+cookie = "connect.sid=s%3Aee05896eb57d42a983f4a16fd21fe0f0.JqjVWeNDZOgAEY5pL9eWNtLj6C2VAH77%2BXvc5z7GsqY"
+
+[[sites]]
+type = "zmpt"
+cookie = "c_secure_uid=MTI4ODA%3D; c_secure_pass=9112510e7fc3055afa0de53845f6e73d; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D"
+
+[[groups]]
+name = "acg"
+sites = ["u2", "azusa", "kamept"]
