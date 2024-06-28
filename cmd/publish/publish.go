@@ -49,26 +49,27 @@ var (
 )
 
 var (
-	doCheck           = false
-	skipCheck         = false
-	dryRun            = false
-	checkExisting     = false
-	showJson          = false
-	maxTorrents       = int64(0)
-	minTorrentSizeStr = ""
-	sitename          = ""
-	clientname        = ""
-	contentPath       = ""
-	savePath          = ""
-	comment           = ""
-	commentFile       = ""
-	moveOkTo          = ""
-	mustTag           = ""
-	metaArrayKeysStr  = ""
-	maxTotalSizeStr   = ""
-	imageFiles        []string
-	fields            []string
-	mapSavePaths      []string
+	doCheck               = false
+	skipCheck             = false
+	dryRun                = false
+	checkExisting         = false
+	showJson              = false
+	maxTorrents           = int64(0)
+	maxPublishingTorrents = int64(0)
+	minTorrentSizeStr     = ""
+	sitename              = ""
+	clientname            = ""
+	contentPath           = ""
+	savePath              = ""
+	comment               = ""
+	commentFile           = ""
+	moveOkTo              = ""
+	mustTag               = ""
+	metaArrayKeysStr      = ""
+	maxTotalSizeStr       = ""
+	imageFiles            []string
+	fields                []string
+	mapSavePaths          []string
 )
 
 func init() {
@@ -81,12 +82,14 @@ func init() {
 		"Check whether same contents torrent already exists in site before publishing")
 	command.Flags().BoolVarP(&showJson, "json", "", false, "Show output in json format")
 	command.Flags().Int64VarP(&maxTorrents, "max-torrents", "", -1,
+		"Number limit of (successfully) published torrents. -1 == no limit")
+	command.Flags().Int64VarP(&maxPublishingTorrents, "max-publishing-torrents", "", -1,
 		"Number limit of publishing torrents. -1 == no limit")
 	command.Flags().StringVarP(&maxTotalSizeStr, "max-total-size", "", "-1",
 		"Will at most publish torrents with total contents size of this value. -1 == no limit")
 	command.Flags().StringVarP(&mustTag, "must-tag", "", "", "Comma-separated tag list. "+
 		`If set, only content folders which tags contains any one in the list will be published`)
-	command.Flags().StringVarP(&minTorrentSizeStr, "min-torrent-size", "", "100MiB",
+	command.Flags().StringVarP(&minTorrentSizeStr, "min-torrent-size", "", "10MiB",
 		"Do not publish torrent which contents size is smaller than (<) this value. -1 == no limit")
 	command.Flags().StringVarP(&sitename, "site", "", "", "Publish site")
 	command.Flags().StringVarP(&clientname, "client", "", "",
@@ -197,6 +200,7 @@ func publish(cmd *cobra.Command, args []string) (err error) {
 
 	errorCnt := int64(0)
 	cntHandled := int64(0)
+	cntPublished := int64(0)
 	sizePublished := int64(0)
 	for _, contentPath := range contentPathes {
 		id, tinfo, err := publicTorrent(siteInstance, clientInstance, contentPath, metaValues, true,
@@ -210,8 +214,11 @@ func publish(cmd *cobra.Command, args []string) (err error) {
 		}
 		if err == nil {
 			sizePublished += tinfo.Size
+			cntPublished++
 		}
-		if maxTorrents > 0 && cntHandled >= maxTorrents || maxTotalSize > 0 && sizePublished >= maxTotalSize {
+		if maxTorrents > 0 && cntPublished >= maxTorrents ||
+			maxPublishingTorrents > 0 && cntHandled >= maxPublishingTorrents ||
+			maxTotalSize > 0 && sizePublished >= maxTotalSize {
 			break
 		}
 	}
@@ -518,6 +525,7 @@ func downloadPublishedTorrent(siteInstance site.Site, clientInstance client.Clie
 		SkipChecking: true,
 		SavePath:     savePath,
 		Category:     config.SEEDING_CAT,
+		Tags:         []string{client.GenerateTorrentTagFromSite(sitename), config.PRIVATE_TAG},
 	}, nil)
 	if err != nil {
 		return fmt.Errorf("failed to add torrent to client: %w", err)
